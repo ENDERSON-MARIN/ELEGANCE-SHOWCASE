@@ -166,9 +166,10 @@ O projeto conta com testes unitários e de integração focados na camada de dom
 
 ```bash
 # Execução dos testes via Vitest
-pnpm vitest run --reporter=verbose "feed"
-pnpm vitest run --reporter=verbose "message"
-pnpm vitest run --reporter=verbose "group"
+# Filtrar por módulo
+pnpm vitest run --reporter=verbose "newsletter"
+pnpm vitest run --reporter=verbose "media-processor"
+pnpm vitest run --reporter=verbose "brevo-notification"
 ```
 ## 📄 Licença & Direitos Autorais
 
